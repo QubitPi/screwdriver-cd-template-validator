@@ -1,5 +1,5 @@
 {
-  "name": "screwdriver-template-validator",
+  "name": "screwdriver-cd-template-validator",
   "version": "7.0.0",
   "description": "A module for validating a Screwdriver Template file",
   "main": "index.js",
@@ -9,10 +9,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/screwdriver-cd/template-validator.git"
+    "url": "git+https://github.com/QubitPi/screwdriver-cd-template-validator.git"
   },
-  "homepage": "https://github.com/screwdriver-cd/template-validator",
-  "bugs": "https://github.com/screwdriver-cd/screwdriver/issues",
+  "homepage": "https://github.com/QubitPi/screwdriver-cd-template-validator",
+  "bugs": "https://github.com/QubitPi/screwdriver-cd-template-validator/issues",
   "keywords": [
     "screwdriver",
     "yahoo"
@@ -27,7 +27,8 @@
     "Peter Peterson <jedipetey@gmail.com>",
     "Philip Scott <pscott@zeptohost.com>",
     "St. John Johnson <st.john.johnson@gmail.com",
-    "Tiffany Kyi <tiffanykyi@gmail.com>"
+    "Tiffany Kyi <tiffanykyi@gmail.com>",
+    "Jiaqi Liu <jack20220723@gmail.com>"
   ],
   "devDependencies": {
     "chai": "^4.3.10",
