@@ -1,5 +1,9 @@
 # Template Validator
-[![Version][npm-image]][npm-url] ![Downloads][downloads-image] [![Build Status][status-image]][status-url] [![Open Issues][issues-image]][issues-url] ![License][license-image]
+
+[![Version][NPM badge]][NPM URL]
+[![GitHub Workflow Status][GitHub Workflow Status badge]][GitHub Workflow Status URL]
+![GitHub Last Commit badge]
+![License badge]
 
 > A module for validating and parsing a Screwdriver Template file
 
@@ -29,14 +33,14 @@ config:
 
 
 ```bash
-$ npm install screwdriver-template-validator
+$ npm install screwdriver-cd-template-validator
 ```
 
 Validate in Node.js:
 
 ```javascript
 const fs = require('fs');  // standard fs module
-const validator = require('screwdriver-template-validator');
+const validator = require('screwdriver-cd-template-validator');
 
 // The "example.yaml" is the YAML described above
 validator(fs.readFileSync('example.yaml'))
@@ -84,11 +88,11 @@ npm test
 
 Code licensed under the BSD 3-Clause license. See LICENSE file for terms.
 
-[npm-image]: https://img.shields.io/npm/v/screwdriver-template-validator.svg
-[npm-url]: https://npmjs.org/package/screwdriver-template-validator
-[downloads-image]: https://img.shields.io/npm/dt/screwdriver-template-validator.svg
-[license-image]: https://img.shields.io/npm/l/screwdriver-template-validator.svg
-[issues-image]: https://img.shields.io/github/issues/screwdriver-cd/template-validator.svg
-[issues-url]: https://github.com/screwdriver-cd/template-validator/issues
-[status-image]: https://cd.screwdriver.cd/pipelines/88/badge
-[status-url]: https://cd.screwdriver.cd/pipelines/88
+[GitHub Last Commit badge]: https://img.shields.io/github/last-commit/QubitPi/screwdriver-cd-template-validator/master?logo=github&style=for-the-badge
+[GitHub Workflow Status badge]: https://img.shields.io/github/actions/workflow/status/QubitPi/screwdriver-cd-template-validator/ci-cd.yml?branch=master&logo=github&style=for-the-badge
+[GitHub Workflow Status URL]: https://github.com/QubitPi/screwdriver-cd-template-validator/actions/workflows/ci-cd.yml
+
+[License badge]: https://img.shields.io/npm/l/screwdriver-cd-template-validator.svg?style=for-the-badge
+
+[NPM badge]: https://img.shields.io/npm/v/screwdriver-cd-template-validator.svg?style=for-the-badge
+[NPM URL]: https://www.npmjs.com/package/screwdriver-cd-template-validator
